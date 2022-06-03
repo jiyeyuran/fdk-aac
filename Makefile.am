@@ -27,6 +27,7 @@ fdk_aacinclude_HEADERS = \
     $(top_srcdir)/libSYS/include/genericStds.h \
     $(top_srcdir)/libSYS/include/FDK_audio.h \
     $(top_srcdir)/libSYS/include/syslib_channelMapDescr.h \
+    $(top_srcdir)/libAACenc/include/aacenc_lib_wasm.h \
     $(top_srcdir)/libAACenc/include/aacenc_lib.h \
     $(top_srcdir)/libAACdec/include/aacdecoder_lib.h
 
@@ -81,6 +82,7 @@ AACENC_SRC = \
     libAACenc/src/aacEnc_ram.cpp \
     libAACenc/src/aacEnc_rom.cpp \
     libAACenc/src/aacenc.cpp \
+    libAACenc/src/aacenc_lib_wasm.cpp \
     libAACenc/src/aacenc_lib.cpp \
     libAACenc/src/aacenc_pns.cpp \
     libAACenc/src/aacenc_tns.cpp \

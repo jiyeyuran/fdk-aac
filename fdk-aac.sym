@@ -16,3 +16,8 @@ aacEncInfo
 aacEncOpen
 aacEncoder_GetParam
 aacEncoder_SetParam
+aacEncoder_CreateInBufDesc
+aacEncoder_CreateOutBufDesc
+aacEncoder_CreateInArgs
+aacEncoder_GetNumOutBytes
+aacEncoder_FreeBufDesc
