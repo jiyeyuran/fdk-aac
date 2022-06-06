@@ -1,4 +1,6 @@
-#include "wasm_lib.h"
+#include <stdlib.h>
+#include <stdint.h>
+#include "aacenc_lib_wasm.h"
 
 void aacEncoder_CreateInBufDesc(AACENC_BufDesc **desc, int16_t *inbuf, unsigned int length) {
     AACENC_BufDesc *in_buf = (AACENC_BufDesc *) malloc(sizeof(AACENC_BufDesc));
